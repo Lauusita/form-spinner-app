@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:gravity="center"
+    android:background="@color/white">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Formulario"
+        android:textSize="35sp"
+        android:fontFamily="casual"
+        android:textStyle="bold"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:textColor="@color/pink"
+        >
+    </TextView>
+
+    <EditText
+        android:id="@+id/edt_user"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="User"
+        android:layout_gravity="center"
+        android:fontFamily="casual"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        >
+    </EditText>
+
+    <EditText
+        android:id="@+id/edt_age"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="Edad"
+        android:layout_gravity="center"
+        android:fontFamily="casual"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:inputType="number"
+        >
+    </EditText>
+
+    <Spinner
+        android:id="@+id/spn_category"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="casual"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:inputType="number"
+        >
+    </Spinner>
+
+    <Button
+        android:id="@+id/btn_submit"
+        android:layout_margin="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="casual"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:text="Enviar"
+        android:backgroundTint="#ED1C69">
+    </Button>
+</LinearLayout>
